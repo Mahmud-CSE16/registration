@@ -1,0 +1,164 @@
+#body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#navbar{
+	background-color: #0060A4;
+}
+
+#navbarlink{
+	color: white;
+	font-size: 13px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+#active_nav_link{
+	color: #0060A4;
+	font-size: 13px;
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: white;
+}
+
+#progress_bar{
+	padding: 15px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#progress_bar_item{
+	display: inline-block;
+	font-size: 11px;
+	line-height: 20px;
+}
+#progress_bar_item_number{
+	height: 20px;
+	width: 20px;
+	display: inline-block; 
+	color: white;
+	line-height: 20px;
+	font-size: 11px;
+	background-color: #0060A4;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 3px;
+}
+#progress_bar_item_done{
+	height: 20px;
+	width: 20px;
+	display: inline-block; 
+	line-height: 20px;
+	font-size: 11px;
+	border-radius: 50%;
+	margin-right: 3px;
+	border: 1px solid #0060A4;	
+}
+#progress_bar_item_done>img{
+	width: 20px;
+	display: inline-block; 
+	border-radius: 50%;
+	padding: 4px;
+	margin-bottom: 3px;
+}
+
+#container{
+	background-image: url("images/content_background_img.png");
+  	background-repeat: no-repeat;
+  	background-position: left bottom;
+  	background-size:100% 100%;
+  	background-attachment: scroll; 
+}
+
+#container_body{
+	max-width: 750px;
+	background-color: white;
+	margin: auto;
+}
+#container_body>p{
+	color: #0060A4;
+}
+#required{
+    color: red;
+}
+
+#footer{
+
+}
+
+#contact_link{
+	display: block;
+	text-decoration: none;
+	color: #3B3B3B;
+	font-size: 13px;
+}
+
+#follow_us_link{
+	display: inline-block;
+	width:30px;
+}
+
+#footer p{
+	font-weight: 700;
+	color: #9E9E9E;
+	margin-bottom: 5px;
+}
+#get_in_touch{
+	margin-bottom: 20px;
+}
+#get_in_touch>div{
+	margin-left: 10%;
+}
+#download_app{
+	margin-bottom: 20px;
+}
+#follow_us{
+	margin-bottom: 20px;
+}
+#follow_us>div{
+	margin-left: 10%;
+}
+
+
+/* Small devices (landscape phones, 544px and up) */
+/*@media (min-width: 544px) {
+	#get_in_touch{
+		border-right: 1px solid #9E9E9E;
+		margin-bottom: 0;
+    }
+    #download_app{
+    	margin-bottom: 0;
+	}
+    #follow_us{
+    	border-left: 1px solid #9E9E9E;
+    	margin-bottom: 0;
+	}
+	#footer p{
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+}*/
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) { 
+	#get_in_touch{
+		border-right: 1px solid #9E9E9E;
+		margin-bottom: 0;
+    }
+    #download_app{
+    	margin-bottom: 0;
+	}
+    #follow_us{
+    	border-left: 1px solid #9E9E9E;
+    	margin-bottom: 0;
+	}
+	#footer p{
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+	#get_in_touch>div{
+		margin-left: 0;
+	}
+    #follow_us>div{
+		margin-left: 0;
+	}
+}
