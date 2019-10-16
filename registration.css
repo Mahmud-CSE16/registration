@@ -30,8 +30,9 @@
 
 .m-progress-bar{
 	padding: 15px;
+	background-color: white;
 	text-align: center;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .m-progress-bar-item{
 	display: inline-block;
@@ -66,6 +67,7 @@
 
 .m-container{
 	background-image: url("images/content_background_img.png");
+	margin-top: 25px;
   	background-repeat: no-repeat;
   	background-position: left bottom;
   	background-size:100% 100%;
