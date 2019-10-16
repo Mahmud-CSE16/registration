@@ -85,10 +85,10 @@
 	color: #95A4A4;
 }
 #m-btn{
-	float: right; color: white; background-color: #0060A4;
+	 color: white; background-color: #0060A4;
 }
 #m-b-btn{
-	float: right; margin-right: 10px; color: white; background-color: #95A4A4;
+	 margin-right: 10px; color: white; background-color: #95A4A4;
 }
 .m-required{
     color: red;
