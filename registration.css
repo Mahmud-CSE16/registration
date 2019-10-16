@@ -21,6 +21,7 @@
 #active-nav-link{
 	color: #0060A4;
 	font-size: 14px;
+	font-weight: 500;
 	border: 1px solid white;
 	border-radius: 5px;
 	background-color: white;
@@ -75,7 +76,7 @@
 }
 
 .m-container-body{
-	max-width: 750px;
+	max-width: 850px;
 	background-color: white;
 	margin: auto;
 }
@@ -84,9 +85,13 @@
 }
 .m-form{
 	font-size: 14px;
+	color: #95A4A4;
 }
 #m-btn{
 	float: right; color: white; background-color: #0060A4;
+}
+#m-b-btn{
+	float: right; margin-right: 10px; color: white; background-color: #95A4A4;
 }
 .m-required{
     color: red;
@@ -138,6 +143,14 @@
 }
 
 
+/*registration 3*/
+
+#m-online-payment{
+	width: 49%;color: white; background-color: #0060A4; font-size: 14px;
+}
+#m-cash-payment{
+	width: 49%;color: #0060A4; border: 1px solid #0060A4; font-size: 14px;
+}
 /* Small devices (landscape phones, 544px and up) */
 /*@media (min-width: 544px) {
 	#get_in_touch{

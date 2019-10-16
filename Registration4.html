@@ -46,65 +46,46 @@
 
 <div class="m-progress-bar">
 	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-done"><img  src="images/tick.png"></span>YOUR INFORMATION</p>
-	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-number">2</span>VEHICLE INFORMATION</p>
-	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-number">3</span>INSTALLATION TIME</p>
+	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-done"><img  src="images/tick.png"></span>VEHICLE INFORMATION</p>
+	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-done"><img  src="images/tick.png"></span>INSTALLATION TIME</p>
 	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-number">4</span>PAYMENT</p>
 </div>
 
 <!-- container -->
 <div class="py-4 m-container">
 	<div class="p-3 m-container-body">
-		<p>YOUR INFORMATION</p>
+		<p>VEHICLE INFORMATION</p>
 		<form class="m-form" action="/action_page.php">
 		  <div class="row">
 		  	<div class="form-group col-md-6">
-			  <label for="employee_name">Contacted Easytrax Employee Name <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="employee_name">
+			  <label for="product_purchase">Which Product do you want to purchase ?</label>
+			    <select class="form-control" id="product_purchase">
+			        <option>City Bank Amex Card - 20% Off</option>
+			        <option>2</option>
+			        <option>3</option>
+			        <option>4</option>
+			    </select>
 			</div>
 			<div class="form-group col-md-6">
-			   <label for="full_name">Your Full Name <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="full_name">
-			</div>
-		  </div>
-		  <div class="row">
-		  	<div class="form-group col-md-6">
-			  <label for="contact_no">Contact No <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="contact_no">
-			</div>
-			<div class="form-group col-md-6">
-			   <label for="a_contact_no">Alternative Contact No <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="a_contact_no">
-			</div>
-		  </div>
-		  <div class="row">
-		  	<div class="form-group col-md-6">
-			  <label for="profession">Please share your Profession <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="profession">
-			</div>
-			<div class="form-group col-md-6">
-			   <label for="nid">National ID Card No <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="nid">
-			</div>
-		  </div>
-		  <div class="row">
-		  	<div class="form-group col-md-6">
-			  <label for="email">Email <span class="m-required">*</span></label>
-			    <input type="email" class="form-control" id="email">
-			</div>
-			<div class="form-group col-md-6">
-			   <label for="cpn">Contact Person Name - In case of Company <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="cpn">
-			</div>
-		  </div>
-		  <div class="row">
-		  	<div class="form-group col-md-6">
-			  <label for="address">Address <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="address">
+			   <label for="abc">Where did you hear about us? <span class="m-required">*</span></label>
+			    <select class="form-control" id="abc">
+			        <option>Easytrax Website</option>
+			        <option>2</option>
+			        <option>3</option>
+			        <option>4</option>
+			    </select>
 			</div>
 		  </div>
 		  <div class="row">
 		  	<div class="form-group col-md-12">
+			  <label for="message">Remarks/Your Message (if any)</label>
+			   <input type="text" class="form-control" id="message">
+			</div>
+		  </div>	
+		  <div class="row">
+		  	<div class="form-group col-md-12">
 		  	   <input class="btn px-5" id="m-btn" type="submit" name="next" value="Next">
+		  	   <a class="btn px-5" id="m-b-btn">Back</a>
 			</div>
 		  </div>
 		</form>
