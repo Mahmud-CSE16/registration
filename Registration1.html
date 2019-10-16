@@ -15,15 +15,15 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">	
 
     </head>
-<body id="body">
+<body class="m-body">
 
 <!-- navbar -->
-<nav class="navbar navbar-dark navbar-expand-md p-0 px-4" id="navbar">
+<nav class="navbar navbar-dark navbar-expand-md p-0 px-4 m-navbar">
   <a class="navbar-brand" href="#"><img height="40px" src="images/easytrax.png"></a>
     <div class="collapse navbar-collapse mx-auto" id="navbarNav" >
       <ul class="navbar-nav my-2 mx-auto" >
           <li class="nav-item mx-auto">
-              <a class="nav-link p-1 px-2 m-1" id="active_nav_link" href="#">New Customer Registration</a>
+              <a class="nav-link p-1 px-2 m-1" id="active-nav-link" href="#">New Customer Registration</a>
           </li>
           <li class="nav-item mx-auto">
               <a class="nav-link p-1 px-2 m-1" id="navbarlink" href="#">Service Appointment Request</a>
@@ -38,73 +38,73 @@
     </div>
     <ul class="navbar-nav">
     	<li class="collapse navbar-collapse mx-auto nav-item" id="navbarNav">
-    		<a class="nav-link" style="color: white; font-size: 16px" href="#">Back To Home</a>
+    		<a class="nav-link" id="m-b-home" href="#">Back To Home</a>
     	</li>
     </ul>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
 </nav>
 
-<div id="progress_bar">
-	<p class="ml-3 m-0 p-0" id="progress_bar_item"><span id="progress_bar_item_done"><img  src="images/tick.png"></span>YOUR INFORMATION</p>
-	<p class="ml-3 m-0 p-0" id="progress_bar_item"><span id="progress_bar_item_number">2</span>VEHICLE INFORMATION</p>
-	<p class="ml-3 m-0 p-0" id="progress_bar_item"><span id="progress_bar_item_number">3</span>INSTALLATION TIME</p>
-	<p class="ml-3 m-0 p-0" id="progress_bar_item"><span id="progress_bar_item_number">4</span>PAYMENT</p>
+<div class="m-progress-bar">
+	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-done"><img  src="images/tick.png"></span>YOUR INFORMATION</p>
+	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-number">2</span>VEHICLE INFORMATION</p>
+	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-number">3</span>INSTALLATION TIME</p>
+	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-number">4</span>PAYMENT</p>
 </div>
 
 <!-- container -->
-<div class="py-4"  id="container">
-	<div class="p-3" id="container_body">
+<div class="py-4 m-container">
+	<div class="p-3 m-container-body">
 		<p>YOUR INFORMATION</p>
-		<form style="font-size: 14px" action="/action_page.php">
+		<form class="m-form" action="/action_page.php">
 		  <div class="row">
 		  	<div class="form-group col-md-6">
-			  <label for="employee_name">Contacted Easytrax Employee Name <span id="required">*</span></label>
+			  <label for="employee_name">Contacted Easytrax Employee Name <span class="m-required">*</span></label>
 			    <input type="text" class="form-control" id="employee_name">
 			</div>
 			<div class="form-group col-md-6">
-			   <label for="full_name">Your Full Name <span id="required">*</span></label>
+			   <label for="full_name">Your Full Name <span class="m-required">*</span></label>
 			    <input type="text" class="form-control" id="full_name">
 			</div>
 		  </div>
 		  <div class="row">
 		  	<div class="form-group col-md-6">
-			  <label for="contact_no">Contact No <span id="required">*</span></label>
+			  <label for="contact_no">Contact No <span class="m-required">*</span></label>
 			    <input type="text" class="form-control" id="contact_no">
 			</div>
 			<div class="form-group col-md-6">
-			   <label for="a_contact_no">Alternative Contact No <span id="required">*</span></label>
+			   <label for="a_contact_no">Alternative Contact No <span class="m-required">*</span></label>
 			    <input type="text" class="form-control" id="a_contact_no">
 			</div>
 		  </div>
 		  <div class="row">
 		  	<div class="form-group col-md-6">
-			  <label for="profession">Please share your Profession <span id="required">*</span></label>
+			  <label for="profession">Please share your Profession <span class="m-required">*</span></label>
 			    <input type="text" class="form-control" id="profession">
 			</div>
 			<div class="form-group col-md-6">
-			   <label for="nid">National ID Card No <span id="required">*</span></label>
+			   <label for="nid">National ID Card No <span class="m-required">*</span></label>
 			    <input type="text" class="form-control" id="nid">
 			</div>
 		  </div>
 		  <div class="row">
 		  	<div class="form-group col-md-6">
-			  <label for="email">Email <span id="required">*</span></label>
+			  <label for="email">Email <span class="m-required">*</span></label>
 			    <input type="email" class="form-control" id="email">
 			</div>
 			<div class="form-group col-md-6">
-			   <label for="cpn">Contact Person Name - In case of Company <span id="required">*</span></label>
+			   <label for="cpn">Contact Person Name - In case of Company <span class="m-required">*</span></label>
 			    <input type="text" class="form-control" id="cpn">
 			</div>
 		  </div>
 		  <div class="row">
 		  	<div class="form-group col-md-6">
-			  <label for="address">Address <span id="required">*</span></label>
+			  <label for="address">Address <span class="m-required">*</span></label>
 			    <input type="text" class="form-control" id="address">
 			</div>
 		  </div>
 		  <div class="row">
 		  	<div class="form-group col-md-12">
-		  	   <input class="btn px-5" style="float: right; color: white; background-color: #0060A4;" type="submit" name="next" value="Next">
+		  	   <input class="btn px-5" id="m-btn" type="submit" name="next" value="Next">
 			</div>
 		  </div>
 		</form>
@@ -113,28 +113,28 @@
 
 
 <!-- footer -->
-<div class="row justify-content-center p-3" id="footer">
+<div class="row justify-content-center p-3 m-footer">
 	<div class="col-lg-9 col-md-11">
-		<div class="row" style="font-size: 14px">
-			<div class="col-md-4 px-3" id="get_in_touch">
+		<div class="row m-footer-row">
+			<div class="col-md-4 px-3 m-get-in-touch">
 				<div>
 					<p>Get In Touch</p>
-					<a id="contact_link" href="tel:+8809606667788"><img class="mr-1" width="13px" src="images/phone.png">+8809606667788</a>
-					<a id="contact_link" href="mailto:support@easytrax.com.bd"><img class="mr-1" width="13px" src="images/message.png">support@easytrax.com.bd</a>
-					<a id="contact_link" href="http://www.easytrax.com.bd" target="_blank"><img class="mr-1" width="13px" src="images/global.png">http://www.easytrax.com.bd</a>
+					<a class="m-contact-link" href="tel:+8809606667788"><img class="mr-1" width="13px" src="images/phone.png">+8809606667788</a>
+					<a class="m-contact-link" href="mailto:support@easytrax.com.bd"><img class="mr-1" width="13px" src="images/message.png">support@easytrax.com.bd</a>
+					<a class="m-contact-link" href="http://www.easytrax.com.bd" target="_blank"><img class="mr-1" width="13px" src="images/global.png">http://www.easytrax.com.bd</a>
 				</div>
 			</div>
-			<div class="col-md-4 px-3" id="download_app">
-				<p style="margin-left: 10%">Download App From</p>
-				<a href="http://telematics.easytrax.com.bd" target="_blank" style="display: inline-block; margin-left: 10%; width:80%; max-width: 250px"><img width="100%" src="images/app.png"></a>
+			<div class="col-md-4 px-3 m-download-app">
+				<p>Download App From</p>
+				<a href="http://telematics.easytrax.com.bd" target="_blank"><img width="100%" src="images/app.png"></a>
 			</div>
-			<div class="col-md-4 px-3" id="follow_us">
+			<div class="col-md-4 px-3 m-follow-us">
 				<div>
 					<p>Follow Us</p>
-					<a class="m-1" href="https://www.facebook.com/easytrax" target="_blank" id="follow_us_link"><img width="100%" src="images/facebook.png"></a>
-					<a class="m-1" href="https://www.linkedin.com/company/13473699" target="_blank" id="follow_us_link"><img width="100%" src="images/linkedin.png"></a>
-					<a class="m-1" href="https://www.instagram.com/easytrax/" target="_blank" id="follow_us_link"><img width="100%" src="images/instagram.png"></a>
-					<a class="m-1" href="https://www.youtube.com/channel/UC1aSv0jmwbYyzv2rYFTnVDw" target="_blank" id="follow_us_link"><img width="100%" src="images/youtube.png"></a>
+					<a class="m-1 m-follow-us-link" href="https://www.facebook.com/easytrax" target="_blank"><img width="100%" src="images/facebook.png"></a>
+					<a class="m-1 m-follow-us-link" href="https://www.linkedin.com/company/13473699" target="_blank"><img width="100%" src="images/linkedin.png"></a>
+					<a class="m-1 m-follow-us-link" href="https://www.instagram.com/easytrax/" target="_blank"><img width="100%" src="images/instagram.png"></a>
+					<a class="m-1 m-follow-us-link" href="https://www.youtube.com/channel/UC1aSv0jmwbYyzv2rYFTnVDw" target="_blank"><img width="100%" src="images/youtube.png"></a>
 				</div>
 			</div>
 	    </div>

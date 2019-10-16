@@ -1,8 +1,8 @@
-#body{
+.m-body{
 	font-family: 'Open Sans', sans-serif;
 }
 
-#navbar{
+.m-navbar{
 	background-color: #0060A4;
 }
 
@@ -13,7 +13,12 @@
 	border-radius: 5px;
 }
 
-#active_nav_link{
+#m-b-home{
+	color: white;
+	font-size: 16px;
+}
+
+#active-nav-link{
 	color: #0060A4;
 	font-size: 14px;
 	border: 1px solid white;
@@ -21,17 +26,17 @@
 	background-color: white;
 }
 
-#progress_bar{
+.m-progress-bar{
 	padding: 15px;
 	text-align: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#progress_bar_item{
+.m-progress-bar-item{
 	display: inline-block;
 	font-size: 14px;
 	line-height: 25px;
 }
-#progress_bar_item_number{
+.m-progress-bar-item-number{
 	height: 25px;
 	width: 25px;
 	display: inline-block; 
@@ -43,7 +48,7 @@
 	text-align: center;
 	margin-right: 3px;
 }
-#progress_bar_item_done{
+.m-progress-bar-item-done{
 	height: 25px;
 	width: 25px;
 	display: inline-block; 
@@ -53,7 +58,7 @@
 	margin-right: 3px;
 	border: 1px solid #0060A4;	
 }
-#progress_bar_item_done>img{
+.m-progress-bar-item-done>img{
 	width: 25px;
 	display: inline-block; 
 	border-radius: 50%;
@@ -61,7 +66,7 @@
 	margin-bottom: 4px;
 }
 
-#container{
+.m-container{
 	background-image: url("images/content_background_img.png");
   	background-repeat: no-repeat;
   	background-position: left bottom;
@@ -69,52 +74,66 @@
   	background-attachment: scroll; 
 }
 
-#container_body{
+.m-container-body{
 	max-width: 750px;
 	background-color: white;
 	margin: auto;
 }
-#container_body>p{
+.m-container-body>p{
 	color: #0060A4;
 }
-#required{
+.m-form{
+	font-size: 14px;
+}
+#m-btn{
+	float: right; color: white; background-color: #0060A4;
+}
+.m-required{
     color: red;
 }
 
-#footer{
+.m-footer{
 
 }
-
-#contact_link{
+.m-footer-row{
+	font-size: 14px;
+}
+.m-contact-link{
 	display: block;
 	text-decoration: none;
 	color: #3B3B3B;
 	font-size: 13px;
 }
 
-#follow_us_link{
+.m-follow-us-link{
 	display: inline-block;
 	width:30px;
 }
 
-#footer p{
+.m-footer p{
 	font-weight: 700;
 	color: #9E9E9E;
 	margin-bottom: 5px;
 }
-#get_in_touch{
+.m-get-in-touch{
 	margin-bottom: 20px;
 }
-#get_in_touch>div{
+.m-get-in-touch>div{
 	margin-left: 10%;
 }
-#download_app{
+.m-download-app{
 	margin-bottom: 20px;
 }
-#follow_us{
+.m-download-app>p{
+	margin-left: 10%;
+}
+.m-download-app>a{
+	display: inline-block; margin-left: 10%; width:80%; max-width: 250px
+}
+.m-follow-us{
 	margin-bottom: 20px;
 }
-#follow_us>div{
+.m-follow-us>div{
 	margin-left: 10%;
 }
 
@@ -140,25 +159,25 @@
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) { 
-	#get_in_touch{
+	.m-get-in-touch{
 		border-right: 1px solid #9E9E9E;
 		margin-bottom: 0;
     }
-    #download_app{
+    .m-download-app{
     	margin-bottom: 0;
 	}
-    #follow_us{
+    .m-follow-us{
     	border-left: 1px solid #9E9E9E;
     	margin-bottom: 0;
 	}
-	#footer p{
+	.m-footer p{
 		margin-bottom: 10px;
 		margin-top: 0px;
 	}
-	#get_in_touch>div{
+	.m-get-in-touch>div{
 		margin-left: 0;
 	}
-    #follow_us>div{
+    .m-follow-us>div{
 		margin-left: 0;
 	}
 }
