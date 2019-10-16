@@ -23,13 +23,13 @@
     <div class="collapse navbar-collapse mx-auto" id="navbarNav" >
       <ul class="navbar-nav my-2 mx-auto" >
           <li class="nav-item mx-auto">
-              <a class="nav-link p-1 px-2 m-1" id="active-nav-link" href="#">New Customer Registration</a>
+              <a class="nav-link p-1 px-2 m-1" id="navbarlink" href="#">New Customer Registration</a>
           </li>
           <li class="nav-item mx-auto">
               <a class="nav-link p-1 px-2 m-1" id="navbarlink" href="#">Service Appointment Request</a>
           </li>
           <li class="nav-item mx-auto">
-              <a class="nav-link p-1 px-2 m-1" id="navbarlink" href="#">Vehicle Insurance Registration</a>
+              <a class="nav-link p-1 px-2 m-1" id="active-nav-link" href="#">Vehicle Insurance Registration</a>
           </li>
           <li class="nav-item mx-auto">
               <a class="nav-link p-1 px-2 m-1" id="navbarlink" href="#">New Distributor Ragistration	</a>
@@ -44,68 +44,109 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
 </nav>
 
-<div class="m-progress-bar">
-	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-done"><img  src="images/tick.png"></span>YOUR INFORMATION</p>
-	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-number">2</span>VEHICLE INFORMATION</p>
-	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-number">3</span>INSTALLATION TIME</p>
-	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-number">4</span>PAYMENT</p>
-</div>
-
 <!-- container -->
 <div class="py-4 m-container">
 	<div class="p-3 m-container-body">
-		<p>YOUR INFORMATION</p>
+		<p>VEHICLE INSURANCE REGISTRATION</p>
 		<form class="m-form" action="/action_page.php">
 		  <div class="row">
 		  	<div class="form-group col-md-6">
-			  <label for="employee_name">Contacted Easytrax Employee Name <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="employee_name">
+			  <label for="customer_name">Customer Name<span class="m-required">*</span></label>
+			    <input type="text" class="form-control" id="customer_name">
 			</div>
 			<div class="form-group col-md-6">
-			   <label for="full_name">Your Full Name <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="full_name">
-			</div>
-		  </div>
-		  <div class="row">
-		  	<div class="form-group col-md-6">
-			  <label for="contact_no">Contact No <span class="m-required">*</span></label>
+			   <label for="contact_no">Contact No<span class="m-required">*</span></label>
 			    <input type="text" class="form-control" id="contact_no">
 			</div>
-			<div class="form-group col-md-6">
-			   <label for="a_contact_no">Alternative Contact No <span class="m-required">*</span></label>
+		  </div>
+		  <div class="row">
+		  	<div class="form-group col-md-6">
+			  <label for="a_contact_no">Alternative Contact No<span class="m-required">*</span></label>
 			    <input type="text" class="form-control" id="a_contact_no">
 			</div>
-		  </div>
-		  <div class="row">
-		  	<div class="form-group col-md-6">
-			  <label for="profession">Please share your Profession <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="profession">
-			</div>
 			<div class="form-group col-md-6">
-			   <label for="nid">National ID Card No <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="nid">
+			   <label for="address">Address<span class="m-required">*</span></label>
+			    <input type="text" class="form-control" id="address">
 			</div>
 		  </div>
 		  <div class="row">
 		  	<div class="form-group col-md-6">
-			  <label for="email">Email <span class="m-required">*</span></label>
+			  <label for="email">Email<span class="m-required">*</span></label>
 			    <input type="email" class="form-control" id="email">
 			</div>
 			<div class="form-group col-md-6">
-			   <label for="cpn">Contact Person Name - In case of Company <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="cpn">
+			   <label for="vehicle_reg">Vehicle Reg No<span class="m-required">*</span></label>
+			    <input type="text" class="form-control" id="vehicle_reg">
 			</div>
 		  </div>
 		  <div class="row">
 		  	<div class="form-group col-md-6">
-			  <label for="address">Address <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="address">
+			  <label for="model_no">Brand and Model No <span class="m-required">*</span></label>
+			    <input type="text" class="form-control" id="model_no">
+			</div>
+			<div class="form-group col-md-6">
+			   <label for="engine_no">Engine Number<span class="m-required">*</span></label>
+			    <input type="text" class="form-control" id="engine_no">
+			</div>
+		  </div>
+		  <div class="row">
+		  	<div class="form-group col-md-6">
+			  <label for="chassis_no">Chassis Number</label>
+			    <input type="text" class="form-control" id="chassis_no">
+			</div>
+			<div class="form-group col-md-6">
+			  <label for="engine_cc">Engine CC <span class="m-required">*</span></label>
+			    <input type="text" class="form-control" id="engine_cc">
+			</div>
+		  </div>
+		  <div class="row">
+		  	<div class="form-group col-md-6">
+			  <label for="number_seats">Number Seats<span class="m-required">*</span></label>
+			    <input type="text" class="form-control" id="number_seats">
+			</div>
+			<div class="form-group col-md-6">
+			  <label for="new">Is your Reconditioned or Brand New ? <span class="m-required">*</span></label>
+			    <select class="form-control" id="new">
+			        <option>Brand New</option>
+			        <option>2</option>
+			        <option>3</option>
+			        <option>4</option>
+			    </select>
+			</div>
+		  </div>
+		  <div class="row">
+		  	<div class="form-group col-md-6">
+			  <label for="start_date">Insurance Start Date </label>
+			    <input type="text" class="form-control" id="start_date">
+			</div>
+			<div class="form-group col-md-6">
+			  <label for="expire_date">Insurance Expiry Date</label>
+			    <input type="text" class="form-control" id="expire_date">
+			</div>
+		  </div>
+		  <div class="row">
+		  	<div class="form-group col-md-6">
+			  <label for="gps">Do You Use GPS Tracking<span class="m-required">*</span></label>
+			    <select class="form-control" id="gps">
+			        <option>Yes</option>
+			        <option>No</option>
+			    </select>
+			</div>
+			<div class="form-group col-md-6">
+			  <label for="opc">Offer Promo Code</label>
+			    <input type="text" class="form-control" id="opc">
+			</div>
+		  </div>
+		  <div class="row">
+			<div class="form-group col-md-6">
+			  <label for="referrer_name">Referrer Name</label>
+			    <input type="text" class="form-control" id="referrer_name">
 			</div>
 		  </div>
 		  <br><br>
 		  <div class="row">
 		  	<div class="form-group col-md-12">
-		  	   <input class="btn px-5" id="m-btn" type="submit" name="next" value="Next">
+		  	   <input class="btn px-5" id="m-btn" type="submit" name="next" value="Submit">
 			</div>
 		  </div>
 		</form>

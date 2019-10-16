@@ -23,10 +23,10 @@
     <div class="collapse navbar-collapse mx-auto" id="navbarNav" >
       <ul class="navbar-nav my-2 mx-auto" >
           <li class="nav-item mx-auto">
-              <a class="nav-link p-1 px-2 m-1" id="active-nav-link" href="#">New Customer Registration</a>
+              <a class="nav-link p-1 px-2 m-1" id="navbarlink" href="#">New Customer Registration</a>
           </li>
           <li class="nav-item mx-auto">
-              <a class="nav-link p-1 px-2 m-1" id="navbarlink" href="#">Service Appointment Request</a>
+              <a class="nav-link p-1 px-2 m-1" id="active-nav-link" href="#">Service Appointment Request</a>
           </li>
           <li class="nav-item mx-auto">
               <a class="nav-link p-1 px-2 m-1" id="navbarlink" href="#">Vehicle Insurance Registration</a>
@@ -44,26 +44,19 @@
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
 </nav>
 
-<div class="m-progress-bar">
-	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-done"><img  src="images/tick.png"></span>YOUR INFORMATION</p>
-	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-number">2</span>VEHICLE INFORMATION</p>
-	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-number">3</span>INSTALLATION TIME</p>
-	<p class="ml-3 m-0 p-0 m-progress-bar-item"><span class="m-progress-bar-item-number">4</span>PAYMENT</p>
-</div>
-
 <!-- container -->
 <div class="py-4 m-container">
 	<div class="p-3 m-container-body">
-		<p>YOUR INFORMATION</p>
+		<p>SERVICE APPOINTMENT REQUEST <span style="color: #8A8A8A;">(Only for Existing Customers)</span></p>
 		<form class="m-form" action="/action_page.php">
 		  <div class="row">
 		  	<div class="form-group col-md-6">
-			  <label for="employee_name">Contacted Easytrax Employee Name <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="employee_name">
+			  <label for="name">Name<span class="m-required">*</span></label>
+			    <input type="text" class="form-control" id="name">
 			</div>
 			<div class="form-group col-md-6">
-			   <label for="full_name">Your Full Name <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="full_name">
+			   <label for="user_id">Easytrax User ID <span class="m-required">*</span></label>
+			    <input type="text" class="form-control" id="user_id">
 			</div>
 		  </div>
 		  <div class="row">
@@ -72,40 +65,50 @@
 			    <input type="text" class="form-control" id="contact_no">
 			</div>
 			<div class="form-group col-md-6">
-			   <label for="a_contact_no">Alternative Contact No <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="a_contact_no">
-			</div>
-		  </div>
-		  <div class="row">
-		  	<div class="form-group col-md-6">
-			  <label for="profession">Please share your Profession <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="profession">
-			</div>
-			<div class="form-group col-md-6">
-			   <label for="nid">National ID Card No <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="nid">
-			</div>
-		  </div>
-		  <div class="row">
-		  	<div class="form-group col-md-6">
-			  <label for="email">Email <span class="m-required">*</span></label>
+			   <label for="email">Email</label>
 			    <input type="email" class="form-control" id="email">
 			</div>
-			<div class="form-group col-md-6">
-			   <label for="cpn">Contact Person Name - In case of Company <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="cpn">
+		  </div>
+		  <div class="row">
+		  	<div class="form-group col-md-12">
+			  <label>Service Type <span class="m-required">*</span></label>
+			    <div class="row px-3">
+			    	<div class="col-md-4 p-0 px-1"> <p class="p-2 m-service-type-item-active">New Device Purchase and Installation</p></div>
+			    	<div class="col-md-4 p-0 px-1"> <p class="p-2 m-service-type-item">Device Open from Vehicle</p></div>
+			    	<div class="col-md-4 p-0 px-1"> <p class="p-2 m-service-type-item">Device Re Install in Vehicle</p></div>
+			    	
+			    </div>
+			    <div class="row px-3">
+			    	<div class="col-md-4 p-0 px-1"> <p class="p-2 m-service-type-item">Device Open and Reinstall in Vehicle</p></div>
+			    	<div class="col-md-4 p-0 px-1"> <p class="p-2 m-service-type-item">Device Related After Sales Support</p></div>
+			    	<div class="col-md-4 p-0 px-1"> <p class="p-2 m-service-type-item">Electric Wiring Related Support</p></div>
+			    </div>
 			</div>
 		  </div>
 		  <div class="row">
 		  	<div class="form-group col-md-6">
-			  <label for="address">Address <span class="m-required">*</span></label>
-			    <input type="text" class="form-control" id="address">
+			  <label for="Location">Preferred Location for Service <span class="m-required">*</span></label>
+			    <input type="text" class="form-control" id="Location">
+			</div>
+			<div class="form-group col-md-6">
+			   <label for="date">Date<span class="m-required">*</span></label>
+			    <input type="text" class="form-control" id="date">
+			</div>
+		  </div>
+		  <div class="row">
+		  	<div class="form-group col-md-6">
+			  <label for="time">Time<span class="m-required">*</span></label>
+			    <input type="text" class="form-control" id="time">
+			</div>
+			<div class="form-group col-md-6">
+			  <label for="remarks">Remarks</label>
+			    <input type="text" class="form-control" id="remarks">
 			</div>
 		  </div>
 		  <br><br>
 		  <div class="row">
 		  	<div class="form-group col-md-12">
-		  	   <input class="btn px-5" id="m-btn" type="submit" name="next" value="Next">
+		  	   <input class="btn px-5" id="m-btn" type="submit" name="next" value="submit">
 			</div>
 		  </div>
 		</form>

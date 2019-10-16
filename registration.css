@@ -54,17 +54,13 @@
 	width: 25px;
 	display: inline-block; 
 	line-height: 25px;
-	font-size: 14px;
 	border-radius: 50%;
-	margin-right: 3px;
-	border: 1px solid #0060A4;	
+	margin-right: 3px;	
 }
 .m-progress-bar-item-done>img{
 	width: 25px;
 	display: inline-block; 
 	border-radius: 50%;
-	padding: 6px;
-	margin-bottom: 4px;
 }
 
 .m-container{
@@ -82,6 +78,7 @@
 }
 .m-container-body>p{
 	color: #0060A4;
+    font-weight: 600;
 }
 .m-form{
 	font-size: 14px;
@@ -150,6 +147,22 @@
 }
 #m-cash-payment{
 	width: 49%;color: #0060A4; border: 1px solid #0060A4; font-size: 14px;
+}
+
+/*appoinment request*/
+
+.m-service-type-item{
+	text-align: center;
+	 border: 1px solid #0060A4;
+	 border-radius: 5px;
+	 color: #0060A4;
+}
+.m-service-type-item-active{
+	background-color: #0060A4;
+	color: white;
+	text-align: center;
+	 border: 1px solid #0060A4;
+	 border-radius: 5px;
 }
 /* Small devices (landscape phones, 544px and up) */
 /*@media (min-width: 544px) {
