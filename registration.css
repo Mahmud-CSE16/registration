@@ -1,5 +1,6 @@
 .m-body{
 	font-family: 'Open Sans', sans-serif;
+	background-color: #F5F5F5;
 }
 
 .m-navbar{
@@ -95,7 +96,7 @@
 }
 
 .m-footer{
-
+	background-color: white;
 }
 .m-footer-row{
 	font-size: 14px;
