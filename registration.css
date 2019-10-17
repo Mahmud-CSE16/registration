@@ -75,6 +75,7 @@
 }
 
 .m-container-body{
+	width: 100%;
 	max-width: 850px;
 	background-color: white;
 	margin: auto;
@@ -166,6 +167,14 @@
 	text-align: center;
 	 border: 1px solid #0060A4;
 	 border-radius: 5px;
+}
+
+.m-successful-background{
+	background-image: url("images/touch.png");
+  	background-repeat: no-repeat;
+  	background-position: right bottom;
+  	background-size:30%;
+  	background-attachment: scroll;
 }
 /* Small devices (landscape phones, 544px and up) */
 /*@media (min-width: 544px) {
