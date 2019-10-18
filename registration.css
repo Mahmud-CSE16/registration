@@ -132,6 +132,7 @@
 }
 .m-get-in-touch>div{
 	display: inline-block;
+	text-align: center;
 }
 .m-download-app{
 	margin-bottom: 20px;
@@ -222,6 +223,9 @@
 		margin-bottom: 0;
 		justify-content: center;
     }
+    .m-get-in-touch>div{
+		text-align: left;
+	}
 	.m-get-in-touch>div>p{
 		text-align: left;
 	}
