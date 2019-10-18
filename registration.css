@@ -104,7 +104,7 @@
 	font-size: 14px;
 }
 .m-contact-link{
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 	color: #3B3B3B;
 	font-size: 13px;
@@ -122,24 +122,45 @@
 }
 .m-get-in-touch{
 	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+.m-get-in-touch>div>p{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
 }
 .m-get-in-touch>div{
-	margin-left: 10%;
+	display: inline-block;
 }
 .m-download-app{
 	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
 }
-.m-download-app>p{
-	margin-left: 10%;
+.m-download-app>div{
+	display: inline-block;
 }
-.m-download-app>a{
-	display: inline-block; margin-left: 10%; width:80%; max-width: 250px
+.m-download-app>div>p{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+.m-download-app>div>a{
+	display: inline-block; width:100%; max-width: 250px
 }
 .m-follow-us{
 	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
 }
 .m-follow-us>div{
-	margin-left: 10%;
+	display: inline-block;
+}
+.m-follow-us>div>p{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
 }
 
 
@@ -199,22 +220,28 @@
 	.m-get-in-touch{
 		border-right: 1px solid #9E9E9E;
 		margin-bottom: 0;
+		justify-content: center;
     }
+	.m-get-in-touch>div>p{
+		text-align: left;
+	}
     .m-download-app{
+    	justify-content: center;
     	margin-bottom: 0;
+	}
+	.m-download-app>div>p{
+    	text-align: left;
 	}
     .m-follow-us{
     	border-left: 1px solid #9E9E9E;
     	margin-bottom: 0;
+    	justify-content: left;
+	}
+	.m-follow-us>div>p{
+		text-align: left;
 	}
 	.m-footer p{
 		margin-bottom: 10px;
 		margin-top: 0px;
-	}
-	.m-get-in-touch>div{
-		margin-left: 0;
-	}
-    .m-follow-us>div{
-		margin-left: 0;
 	}
 }
