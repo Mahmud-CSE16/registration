@@ -201,7 +201,8 @@
 /*pament*/
 
 .m-pament-logos{
-	width: 20%;
+	width: 18%;
+	margin-bottom: 6px;
 }
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
