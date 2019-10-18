@@ -197,24 +197,18 @@
   	background-size:30%;
   	background-attachment: scroll;
 }
+
+/*pament*/
+
+.m-pament-logos{
+	width: 20%;
+}
 /* Small devices (landscape phones, 544px and up) */
-/*@media (min-width: 544px) {
-	#get_in_touch{
-		border-right: 1px solid #9E9E9E;
-		margin-bottom: 0;
-    }
-    #download_app{
-    	margin-bottom: 0;
+@media (min-width: 544px) {
+	.m-pament-logos{
+		width: 10%;
 	}
-    #follow_us{
-    	border-left: 1px solid #9E9E9E;
-    	margin-bottom: 0;
-	}
-	#footer p{
-		margin-bottom: 10px;
-		margin-top: 0px;
-	}
-}*/
+}
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) { 
